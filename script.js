@@ -15,9 +15,7 @@ var makePolitician = function(name, color)
         {    
             this.totalVotes = this.totalVotes + this.electionResults[i];
         }
-};
-  
-  //console.log(politician.name, politician.partyColor);
+    };
   
   return politician;
 };
@@ -41,9 +39,6 @@ aoc.electionResults[4] = 38;
 
 warren.electionResults[43] = 11;
 aoc.electionResults[43] = 27;
-
-//console.log(warren.electionResults);
-//console.log(aoc.electionResults);
 
 
 //Sum total votes for each candidate
